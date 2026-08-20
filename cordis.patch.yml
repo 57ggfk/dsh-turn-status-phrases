@@ -1,0 +1,4 @@
+# Register the browser client module in a DSH Web profile.
+- insert:
+    - id: turn-status-phrases
+      name: dsh-turn-status-phrases
