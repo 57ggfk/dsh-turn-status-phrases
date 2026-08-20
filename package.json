@@ -8,6 +8,9 @@
   "exports": { ".": "./lib/index.js", "./client": "./lib/client.js", "./phrases": "./lib/phrases.js", "./package.json": "./package.json" },
   "files": ["lib", "cordis.patch.yml", "README.md", "LICENSE"],
   "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/57ggfk/dsh-turn-status-phrases.git" },
+  "homepage": "https://github.com/57ggfk/dsh-turn-status-phrases#readme",
+  "bugs": { "url": "https://github.com/57ggfk/dsh-turn-status-phrases/issues" },
   "dsh": {
     "bundle": { "patch": "./cordis.patch.yml" },
     "client": {
