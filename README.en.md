@@ -14,6 +14,16 @@ dsh plugin --profile web add .
 
 Restart DSH Web and enable **Turn status phrases** in the settings. The default library is **Chinese Mythology**.
 
+## Preview
+
+Use the settings page to choose a library, pause rotating phrases, and view the current library's contents:
+
+![Turn status phrases settings](docs/images/setting-en.png)
+
+While a model or agent is working, the status text rotates through the selected phrases:
+
+![Turn status phrases in use](docs/images/show-en.png)
+
 ## Features
 
 - Rotates phrases while a model or agent is working. The display duration is based on the phrase's UTF-8 byte length: 100 ms per byte, clamped between 1.8 and 8 seconds. The same phrase is not shown twice in a row when alternatives are available.
