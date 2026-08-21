@@ -2,3 +2,19 @@ node_modules/
 *.tgz
 npm-debug.log*
 .DS_Store
+PROJECT_MEMORY.md
+
+# Local AI assistant state
+.claude/
+.cursor/
+.continue/
+.aider/
+.aider*
+.roo/
+.windsurf/
+.cody/
+.codeium/
+.copilot/
+.github/copilot/
+.augment/
+.avante/
